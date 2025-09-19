@@ -1,0 +1,13 @@
+name: Propane
+description: "NMR parameters for a propane molecule (C3H8)."
+smiles: CCC
+count from: 0
+shifts:
+  1H:
+    0: 0.9
+    1: 1.3
+    2: 0.9
+J-couplings:
+  1H-1H:
+    - [0, 1, 7.26]
+    - [1, 2, 7.26]
